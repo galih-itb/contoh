@@ -3,8 +3,8 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    #render_template('index.html')
-    return "Galih Hermawan"
+    render_template('index.html')
+    #return "Galih Hermawan"
 
 @application.route('/user/<nama>')
 def user(nama):
