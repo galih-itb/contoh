@@ -1,2 +1,14 @@
 gunicorn
 Flask
+beautifulsoup4
+certifi
+chardet
+Click
+idna
+itsdangerous
+Jinja2
+MarkupSafe
+requests
+soupsieve
+urllib3
+Werkzeug
